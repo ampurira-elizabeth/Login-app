@@ -8,10 +8,11 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 
-lateinit var etName: EditText
-lateinit var etPassword:EditText
-lateinit var btnLogin:Button
+
 class MainActivity : AppCompatActivity() {
+    lateinit var etName: EditText
+    lateinit var etPassword:EditText
+    lateinit var btnLogin:Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
